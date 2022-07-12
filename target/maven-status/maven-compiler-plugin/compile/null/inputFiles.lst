@@ -1,0 +1,9 @@
+/home/matheus/balance/src/main/java/io/quarkus/rabbit/client/QueueBootstrap.java
+/home/matheus/balance/src/main/java/io/quarkus/rabbit/client/RabbitListenerConfiguration.java
+/home/matheus/balance/src/main/java/br/com/example/amqp/balance/service/BalanceServiceImpl.java
+/home/matheus/balance/src/main/java/io/quarkus/rabbit/client/TypeBinding.java
+/home/matheus/balance/src/main/java/io/quarkus/rabbit/client/QueueManager.java
+/home/matheus/balance/src/main/java/br/com/example/amqp/balance/model/Balance.java
+/home/matheus/balance/src/main/java/br/com/example/amqp/balance/service/BalanceService.java
+/home/matheus/balance/src/main/java/br/com/example/amqp/balance/service/BalanceConsumer.java
+/home/matheus/balance/src/main/java/br/com/example/amqp/balance/controller/BalanceController.java
