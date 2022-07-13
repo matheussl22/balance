@@ -1,0 +1,35 @@
+
+
+====== KUBERNATES ==================
+Comando para mostrar o ip do minikube: 
+echo $(minikube ip)
+
+Comando para pegar a porta do service:
+ kubectl get services/kafdrop -o go-template='{{(index .spec.ports 0).nodePort}}'
+
+Nos services é possível fazer a configuração de export ou não algum serviço.
+
+kubectl get services
+
+Sempre direcionar para a porta do serviço.
+kubectl expose deployment/kafdrop --type="NodePort" --port 9000
+
+
+
+
+========ISTIO START================
+
+Step 01
+Download the latest release.
+COMMAND: curl -L https://istio.io/downloadIstio | sh -
+
+Step 02
+Move to the downloaded folder.
+COMMAND: cd <directory>
+
+Step 03
+Add istioctl path to your OS.
+COMMAND: export PATH=$PWD/bin:$PATH
+
+Step 04
+COMMAND: istioctl manifest apply --set profile=demo

@@ -9,7 +9,6 @@ import javax.inject.Inject;
 
 @Dependent
 public class BalanceConsumer {
-
     @Inject
     BalanceService balanceService;
 
