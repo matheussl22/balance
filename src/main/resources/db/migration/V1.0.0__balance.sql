@@ -1,1 +1,0 @@
-create table balance (id int PRIMARY KEY, name varchar, value numeric);

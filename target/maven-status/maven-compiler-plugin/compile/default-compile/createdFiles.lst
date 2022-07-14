@@ -1,7 +1,0 @@
-io/quarkus/rabbit/client/QueueManager$1.class
-io/quarkus/rabbit/client/RabbitListenerConfiguration.class
-io/quarkus/rabbit/client/TypeBinding.class
-br/com/example/amqp/balance/service/BalanceConsumer.class
-br/com/example/amqp/balance/model/Balance.class
-io/quarkus/rabbit/client/QueueManager.class
-io/quarkus/rabbit/client/QueueBootstrap.class
